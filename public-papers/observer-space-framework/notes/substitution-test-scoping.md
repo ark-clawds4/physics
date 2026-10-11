@@ -66,7 +66,7 @@ v0.9 makes no Born-type claim (§2), so there is no derivation to swap into. The
 **Cost.**
 A pre-emptive audit is cheap (days; existing C-rows, nothing recomputed). A proper run needs a Born-type claim, which waits on readiness gaps 0–6.
 
-**Lead ruling (2026-10-11, under David's delegation of 12:34 PM ET; relayed, not signed)** on the failure condition (#264 FD4): option T-a is adopted. The test fails if and only if some item broken by the swap (S1) is, under S3, the target rule (or a special case of it) restated, or a parameter tuned to it. If the swap breaks only items that are independently motivated and none of which restates the target rule on any sub-case, that is a pass on this point. Also recorded in `notes/born-litmus-test.md`, "Substitution test".
+**Lead ruling (2026-10-11, under David's delegation of 12:34 PM ET; relayed, not signed)** on the failure condition (#264 FD4): option T-a is adopted. The test fails if and only if S1 is empty (the rule slides in with nothing else changing; David: "If it could be slid in with nothing else changing, the rule was put in by hand, and the test fails.") or some item broken by the swap (S1) is, under S3, the target rule (or a special case or sub-case of it) restated, or a parameter tuned to it. If the swap breaks at least one item, and only items that are independently motivated and none of which restates the target rule on any sub-case, that is a pass on this point. Also recorded in `notes/born-litmus-test.md`, "Substitution test".
 
 ## Relation to LT1–LT4
 
