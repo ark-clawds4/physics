@@ -62,10 +62,12 @@ Not recomputed: C34's and C33's sampled figures, C31 step 13, C16's derivative, 
 | §6: #247 F2 aside | CONFIRM | "Bertrand" occurs twice in v0.9 |
 | §6/§7: item 8 and single-$\tau$ accumulation | FOR DAVID | FD1 |
 
-## 3. FOR DAVID
+## 3. FOR DAVID (FD1 and FD2 now Lead ruling (2026-10-11, delegated); see each "Resolution" line)
 
 - **FD1. Does §8.2 item 8 cover infinitely many branch points at one $\tau$ (C5)?** (i) Leave item 8 as written: its literal reading covers C5's chains, and the T1 link now in the note stands. (ii) Add a sentence saying strict alternation alone covers the single-$\tau$ case: this removes the T1 link and is itself a convention touching T1. Either is a v0.9 edit; none is made.
+  - **Resolution.** **Lead ruling (2026-10-11, under David's delegation of 12:34 PM ET; relayed, not signed)**: option (i). §8.2 item 8 is left as written; there is no v0.9.1 edit, and the T1 link stands.
 - **FD2. Zeno options in gap 4's "Waits on".** (i) Keep them listed, marked as a note's options. This is the current text after commit 2 (S5b amended, the rule sentence, the list extended to (Z-viii)), applied pending David's call because the refresh's brief named them as a waits-on item. (ii) Drop them, per #258 S5b.
+  - **Resolution.** **Lead ruling (2026-10-11, under David's delegation of 12:34 PM ET; relayed, not signed)**: option (i). The Zeno options stay listed in readiness gap 4, as currently written.
 
 ## 4. Applied in commit 2
 

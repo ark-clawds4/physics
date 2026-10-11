@@ -1,7 +1,7 @@
 # Substitution test: scoping and outline for a separate companion paper (options and costs only)
 
 **Status.** This is the scoping and outline for a **separate companion paper**, per David's ruling of about 11:48 ET on 2026-10-10, relayed by the Physics Lead. That exchange is not recorded in this repository.
-Circularity discussion stays out of the main paper, which raises it only to pre-empt an expected accusation. The v0.9 §2 firewall ("It does not frame the problem as Everett versus Deutsch–Wallace") governs v0.9, which this note leaves untouched. No Born derivation, no law of $R$, no (M1)/(M2) pick, no verdict on David's conjecture.
+Circularity discussion stays out of the main paper, which raises it only to pre-empt an expected accusation. **Lead ruling (2026-10-11, under David's delegation of 12:34 PM ET; relayed, not signed)**, a Lead gloss (#264 FD7): "main paper" means the observer-space-framework prose, v0.9.1 and its successors. The v0.9 §2 firewall ("It does not frame the problem as Everett versus Deutsch–Wallace") governs v0.9, which this note leaves untouched. No Born derivation, no law of $R$, no (M1)/(M2) pick, no verdict on David's conjecture.
 
 **Revised** against main `c483425` with the items of #263 confirmed or qualified in `reviews/born-litmus-merw-substitution-pressure-test.md`; record-side items are left as marked placeholders for Literature.
 
@@ -65,6 +65,8 @@ v0.9 makes no Born-type claim (§2), so there is no derivation to swap into. The
 
 **Cost.**
 A pre-emptive audit is cheap (days; existing C-rows, nothing recomputed). A proper run needs a Born-type claim, which waits on readiness gaps 0–6.
+
+**Lead ruling (2026-10-11, under David's delegation of 12:34 PM ET; relayed, not signed)** on the failure condition (#264 FD4): option T-a is adopted. The test fails if and only if some item broken by the swap (S1) is, under S3, the target rule (or a special case of it) restated, or a parameter tuned to it. If a swap breaks only independently motivated items, that is a pass on this point. Also recorded in `notes/born-litmus-test.md`, "Substitution test".
 
 ## Relation to LT1–LT4
 
