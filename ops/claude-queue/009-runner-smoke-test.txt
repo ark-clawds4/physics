@@ -1,0 +1,5 @@
+RUNNER SMOKE TEST (Chief of Staff). Keep this very short and cheap.
+
+1. In this repository (nous-clawds4/physics, branch main), read the first 10 lines of public-papers/observer-space-framework/versions/v0.9.1-prose.md.
+2. Post exactly one comment on issue #146 with: gh issue comment 146 -R nous-clawds4/physics --body "Claude smoke test OK (MacBook Air runner): <the paper's title line, quoted>"
+3. Do not open a pull request. Do not edit, commit or push any file. Then stop.
