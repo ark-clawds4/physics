@@ -1,6 +1,6 @@
 # Zeno well-posedness: does a Zeno history's limit state exist?
 
-*Standalone note answering the Physics Lead's question on David's (Z-ix) reading (proposed by David, relayed by the Physics Lead, not signed; `notes/zeno-mass-scoping.md`), using #297's method. Written at main `af75d21`; v0.9.1 unedited. Bare § and C pointers are to v0.9.1. (M1) is ruled by David at L3 (relayed, not signed). Gauge, grain, F11, the throat convention and the Zeno pick stay open; this is a well-posedness finding only.*
+*Standalone note answering the Physics Lead's question on David's (Z-ix) reading (proposed by David, relayed by the Physics Lead, not signed; `notes/zeno-mass-scoping.md`), using #297's method. Written at main `af75d21`; §1's metric sentence revised in #301 (the record calls the fermi-distance metric a candidate; that it generates the Fermi-slice topology is owed, not proved); v0.9.1 unedited. Bare § and C pointers are to v0.9.1. (M1) is ruled by David at L3 (relayed, not signed). Gauge, grain, F11, the throat convention and the Zeno pick stay open; this is a well-posedness finding only.*
 
 **Verdict.** v0.9.1 names no topology on $V$, so "exists" is undefined there and (Z-ix) is not yet well-posed. The record holds one candidate: the Fermi-slice topology of `papers/obs-as-a-space.md` (Theorem 16), which is defined but not adopted.
 Under it, C8 has no limit and the germless toys have nothing to ask about. C5's jump chains have a limit only when $r_n\to\infty$ (the flat germ) or when $r_n\to r^*$, the self-target radius ("through" only, and only with germs taken modulo "which exterior"). So no partner row (the Zeno note's N-b) becomes redundant.
@@ -15,7 +15,7 @@ Under it, C8 has no limit and the germless toys have nothing to ask about. C5's 
 | Chart $(r,u^r,v)$ on Schwarzschild $M=1$ germs | #290 A6 ("the germ is determined by $(r,u^r,v)$ up to isometry") | a parametrisation of one family, not a topology on $V$. Inside $r>2$ every Fermi coefficient is analytic in it, so the two agree there; they differ as $r\to\infty$ |
 | Closed- or open-graph $R$, compact stars | the three notes above | conditions on $R$ in the Fermi-slice topology, named extras; they give no limit notion of their own |
 
-A compatible metric is also on record (`papers/fermi-distance.md`: a candidate Fermi-slice distance, "extra packaging of Theorem 16", not adopted); it gives the same limits. Anything else (a metric generating another topology, a topology through which a limit may leave the slice) would be new.
+A candidate metric is also on record (`papers/fermi-distance.md`: a quotient distance built on the inverse-limit variant, "extra packaging of Theorem 16", not adopted). The record calls it "a candidate" and does not prove that it generates the Fermi-slice topology (a standard fact if the slice metric is $O(3)$-invariant). That is owed, not proved; if it holds, the metric gives the same limits. Anything else (a metric generating another topology, a topology through which a limit may leave the slice) would be new.
 
 ## 2. Does the limit exist? The record's Zeno examples
 
