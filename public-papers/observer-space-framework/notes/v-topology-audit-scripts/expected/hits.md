@@ -168,7 +168,7 @@
 | 166 | v0.9.1 | 483 | 11 | discontinuous | …ow jump share is 1/2, and each jump is still discontinuous in oriented observer space. So the transient… | ILL-POSED on V |
 | 167 | v0.9.1 | 483 | 11 | jumps | …the transient reduces how often the observer jumps without making any jump near. Whether that m… | fine: ordinary/combinatorial |
 | 168 | v0.9.1 | 483 | 11 | jump | … often the observer jumps without making any jump near. Whether that meets the no-teleport int… | fine: ordinary/combinatorial |
-| 169 | v0.9.1 | 483 | 11 | near | …n the observer jumps without making any jump near. Whether that meets the no-teleport intuitio… | ILL-POSED on V |
+| 169 | v0.9.1 | 483 | 11 | near | …n the observer jumps without making any jump near. Whether that meets the no-teleport intuitio… | fine: flagged open |
 | 170 | v0.9.1 | 483 | 11 | near | …s the no-teleport intuition depends on what "near" means, which is a question for *Mathematica… | fine: flagged open |
 | 171 | v0.9.1 | 485 | 11 | Nearness | …**Nearness versus jumps, carried as open.** The compani… | fine: flagged open |
 | 172 | v0.9.1 | 485 | 11 | jumps | …**Nearness versus jumps, carried as open.** The companion essay's in… | fine: ordinary/combinatorial |
@@ -291,6 +291,6 @@
 | 289 | Paper 1 | 213 | 11 | metric | …erver is the infinite jet of a real-analytic metric at a point, equivalently the unique simply-c… | fine: spacetime |
 | 290 | Paper 1 | 227 | References | closed | …. Billiard balls in wormhole spacetimes with closed timelike curves: Classical theory. *Physical… | fine: spacetime |
 
-Total 290 {'ILL-POSED on V': 8, 'fine: curvelet': 6, 'fine: flagged open': 11, 'fine: ordinary/combinatorial': 180, 'fine: spacetime': 85}
-v0.9.1 {'ILL-POSED on V': 8, 'fine: curvelet': 4, 'fine: flagged open': 11, 'fine: ordinary/combinatorial': 164, 'fine: spacetime': 55}
+Total 290 {'ILL-POSED on V': 7, 'fine: curvelet': 6, 'fine: flagged open': 12, 'fine: ordinary/combinatorial': 180, 'fine: spacetime': 85}
+v0.9.1 {'ILL-POSED on V': 7, 'fine: curvelet': 4, 'fine: flagged open': 12, 'fine: ordinary/combinatorial': 164, 'fine: spacetime': 55}
 Paper 1 {'fine: curvelet': 2, 'fine: ordinary/combinatorial': 16, 'fine: spacetime': 30}

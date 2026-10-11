@@ -8,7 +8,7 @@ ST, CV, EN, OP, ILL = 'fine: spacetime', 'fine: curvelet', 'fine: ordinary/combi
 def near_rule(doc, ln, ctx):
     c = ctx.lower()
     if 'near at the vertex' in c: return ILL
-    if 'any jump near' in c: return ILL
+    # line 483 'any jump near': v0.9.1's next sentence marks 'near' open ("depends on what 'near' means ... an open call"), so OP
     if any(k in c for k in ('near-horizon', 'near-flat', 'near-circular')): return ST
     return OP
 def verdict(doc, ln, w, ctx, tight=''):
