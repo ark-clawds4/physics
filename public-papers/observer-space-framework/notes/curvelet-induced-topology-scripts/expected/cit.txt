@@ -1,0 +1,4 @@
+v = 0.3849001795 ; check: L at r=10 from v equals the orbit L of [10,20]: 4.17028828114 4.17028828114
+(1) c=0.1 near-throat self-target r* = 2.00036101764 , L* = 0.834208210991
+(2) inward through chain from 10, 20,000 jumps: 20,001 states; min gap between sorted L_n = 2.504e-16 ; min |L_n - L*| = 1.155e-13 ; last r = 2.00036101764
+(3) outward chain from 10 (C5): radii strictly increasing over 24 jumps: True
