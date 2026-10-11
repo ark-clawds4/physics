@@ -87,15 +87,22 @@ The edge adds the dead-end state and makes its source a decision state. It also 
 
 **Tally:** 66 numbered items (B1–B9, M1–M27, X1–X30): 45 CONFIRM, 21 QUALIFY, 0 REJECT, 0 FOR DAVID as item verdicts. In addition: 1 REJECT (#263's R3 statement), and the FOR DAVID list below.
 
-## 3. FOR DAVID (neutral; nothing applied to the L3 answer)
+## 3. FOR DAVID (neutral; nothing applied to the L3 answer; each FD now has a "Resolution" line)
 
 - **FD1 (B1).** Adopt, amend or drop "Outcome mapping (Lead's draft, pending David)". In particular, decide which LT outcomes return a failure and which only withhold a pass, and whether "YES on all four" and "no circularity detected" are one bar or two.
+  - **Resolution.** David's "Purpose" ruling (2026-10-11, #279) settles the purpose and that there are two bars; the per-LT sort is a Lead ruling (2026-10-11, delegated), recorded in `notes/born-litmus-test.md`, "Outcome mapping", *Per-LT sort*.
 - **FD2 (B2, B4, X9).** Decide whether LT2 is restated against §8.4's two branches (named class; empirical target), and whether LT2 names what is counted (individuation of arms, outcome labelling) and the bridge premise from symmetric cases to equal weight.
+  - **Resolution.** Lead ruling (2026-10-11, delegated): a gloss on LT2's "inputs", David's sentence unedited; `notes/born-litmus-test.md`, "Outcome mapping", *LT2's inputs (#264 FD2)*.
 - **FD3 (B3).** Decide whether LT3 is restated, given its uneven bearing on (M1) and (M2), and how "irrelevant" is defined.
+  - **Resolution.** Lead ruling (2026-10-11, delegated): LT3 is on the emergence side, "irrelevant further splitting" is to be defined when a Born-type claim is made, no restatement for now; `notes/born-litmus-test.md`, "Outcome mapping", *LT3 (#264 FD3)*.
 - **FD4 (B5).** Decide whether the substitution paragraph's failure condition is restated. Read literally, every valid derivation meets it, so the verdict turns on S3.
+  - **Resolution.** Lead ruling (2026-10-11, delegated): option T-a adopted; `notes/born-litmus-test.md`, "Substitution test", and `notes/substitution-test-scoping.md`, after "The test as recorded, and an operational form".
 - **FD5 (B7).** Decide whether "Scope and outcomes" governs the substitution test, which sets what the conjecture's "pass" would mean.
+  - **Resolution.** Lead ruling (2026-10-11, delegated): "Scope and outcomes" and "Purpose" govern the substitution test; `notes/born-litmus-test.md`, "Substitution test".
 - **FD6 (M8).** Option (ii) of F-M1 says "could pass", against "Pre-emptive use". It could be reworded to "what a claim through it would have to show under LT1–LT4". F-M1 itself stays David's call.
+  - **Resolution.** Lead ruling (2026-10-11, delegated): F-M1 option (ii) in scope-consistent wording; `notes/merw-litmus-scoping.md`, F-M1 "Resolution"; `versions/v0.9.1-prose.md` P14.
 - **FD7 (#263 §5.4).** Which paper the substitution note's "main paper" means: v0.9 or a later version.
+  - **Resolution.** Lead ruling (2026-10-11, delegated): the observer-space-framework prose, v0.9.1 and its successors; `notes/substitution-test-scoping.md`, Status.
 
 ## 4. Placeholders for Literature (16)
 
