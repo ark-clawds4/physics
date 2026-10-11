@@ -1,10 +1,12 @@
 # What makes two observer states "close"? Decision brief for David
 
-**Status:** decision brief, neutral. It makes no pick, has no lean and gives no recommendation; the call is David's. Written at main `f7acfac`; nothing in `versions/` or `papers/` is edited. Bare § and C pointers are to v0.9.1. Sources are cited by path; numbers are #299's pins (`notes/zeno-well-posedness.md`, `zwp.py` `1777f0be425d`), and nothing new is computed. Options are listed in the order the Physics Lead gave them; the order implies no ranking.
+**Status:** decision brief, neutral. It makes no pick, has no lean and gives no recommendation; the call is David's. Written at main `f7acfac`; nothing in `versions/` or `papers/` is edited. Bare § and C pointers are to v0.9.1. Sources are cited by path; numbers are #299's pins (`notes/zeno-well-posedness.md`, `zwp.py` `1777f0be425d`) and, for (T4), #305's (`notes/curvelet-induced-topology.md`, `cit.py` `a19b8a42d22a`); nothing new is computed here. Options are listed in the order the Physics Lead gave them, with (T4) added last; the order implies no ranking.
+
+**Revised against main `76e9ace`:** (T4) added from #305.
 
 ## 1. The question
 
-David's (Z-ix) reading says an observer continues from a Zeno history's limit state *if that state exists* (relayed, not signed; `notes/zeno-mass-scoping.md`). "Limit" needs a notion of which observer states are close, that is, a topology on $V$. v0.9.1 names none, so (Z-ix) is not yet well-posed (#299; plan item 2). This brief sets out the options the record supports. Two further courses are not listed. One is deferring the choice until (Z-ix) is adopted, which leaves "exists" undefined as (T0) does but does not rule a topology out. The other is any topology or metric not on record, which #299 §1 says "would be new". The $(r,u^r,v)$ chart is a parametrisation of one family, not a topology on $V$ (#299).
+David's (Z-ix) reading says an observer continues from a Zeno history's limit state *if that state exists* (relayed, not signed; `notes/zeno-mass-scoping.md`). "Limit" needs a notion of which observer states are close, that is, a topology on $V$. v0.9.1 names none, so (Z-ix) is not yet well-posed (#299; plan item 2). This brief sets out the options the record supports. Two further courses are not listed. One is deferring the choice until (Z-ix) is adopted, which leaves "exists" undefined as (T0) does but does not rule a topology out. The other is any topology or metric not on record, which #299 §1 says "would be new". (T4), from #305, is new to the record but uses no new structure, so it is listed. The $(r,u^r,v)$ chart is a parametrisation of one family, not a topology on $V$ (#299).
 
 **Where it matters.** On the instance under the arrival rule (A) there are no Zeno histories (C7), so no option changes any instance figure. The question bites in the model without (a) and without (A) (C5's jump chains), and on singular endpoints such as C8.
 
@@ -31,18 +33,25 @@ David's (Z-ix) reading says an observer continues from a Zeno history's limit st
 - *Example.* As (T1), inverse-limit variant: converges to the germ at $r^*$, with distance going to 0.
 - *Settles / leaves open.* As (T1); in addition it fixes nothing that (T1) leaves open.
 
-**(T3) Germs identified across exteriors, or not** (#297, #299). This is not a topology but a choice of what the points are, and it applies on top of any notion above.
+**(T3) Germs identified across exteriors, or not** (#297, #299). This is not a topology but a choice of what the points are, and it applies on top of any topology in this list.
 - *Case for identifying.* It is v0.9.1's stated identity: germs modulo pointed diffeomorphism (§4), and "'Which exterior' is not a property of the target" (§7). With it, the example has one limit.
 - *Case for keeping the label.* It keeps a distinction a completed spacetime draws (regions I and III) and leaves gauge fully open. The record states this reading as a gauge option (#297 §3, row "Gauge: 'which exterior' kept"), and gauge as a named home is open (`papers/obs-as-a-space.md`). With it, the example alternates between two accumulation points and has no limit.
 - *Cost.* Identifying merges two states that a completed spacetime separates (regions I and III); keeping labels needs a $V$ finer than §4's. Either way it touches the open gauge question (`papers/obs-as-a-space.md`: gauge as a named home stays open).
 - *Settles / leaves open.* Decides whether "through" chains near the throat have limits; nothing else. C37's wording (plan item 12) is unaffected: the through-throat target exists by continuation, not by a limit (#297).
 
+**(T4) The curvelet-induced topology, no new structure** (#305): the finest topology on $V$ in which every curvelet is continuous.
+- *Case.* Built only from §5's curvelets and the results §5 cites, so it adds no structure. It is Hausdorff and metrizable, and it splits $V$ into clopen points, circles and open intervals, one per maximal curvelet. It makes (Z-ix) well-posed, and it makes §5's "discontinuous in oriented observer space" a theorem for every jump that is not a self-loop.
+- *Cost.* New to the record and not adopted; #305's step excluding dense period groups is that note's own argument. For Zeno limits on the recorded examples it acts as (T0) does. With finite stars, a Zeno history has a limit only if it ends by repeating one self-loop at a single $\tau$. So (Z-ix) takes its partner's value on C5, C8 and the toys. It is finer than (T1): every limit it gives, (T1) also gives, but not conversely.
+- *Example.* No limit. Each state lies on a different curvelet (20,001 distinct values of the conserved angular momentum over 20,000 jumps, #305 pin (2)), and the germ at $r^*$ is in yet another component. This holds whether or not exteriors are identified, so (T3)'s question does not arise.
+- *Settles / leaves open.* "Exists" becomes defined, but item 8's "ends there" stays unconditional except at self-loop tails. The partner still acts, so (Z-0)–(Z-viii) all stay open, as do gauge as a named home, grain and F11. #292's D1/D2 change only at self-loop tails.
+
 ## 3. What is not being decided
 
-Which Zeno reading (Z-0)–(Z-ix) to adopt; the throat convention; gauge as a named home; grain; F11; any law of $R$; (M1), which David ruled at L3 on 2026-10-10 (relayed, not signed). Choosing (T1) or (T2) defines "exists" for (Z-ix); it does not adopt (Z-ix), and N-a's other choices stay open.
+Which Zeno reading (Z-0)–(Z-ix) to adopt; the throat convention; gauge as a named home; grain; F11; any law of $R$; (M1), which David ruled at L3 on 2026-10-10 (relayed, not signed). Choosing (T1), (T2) or (T4) defines "exists" for (Z-ix); it does not adopt (Z-ix), and N-a's other choices stay open.
 
 ## 4. Where the record is unclear
 
 1. Theorem 16 is stated for $\mathrm{Obs}$ (lumps); its slice carries $u$, and #299 reads it on $V$. The record has no separate statement for $V$.
 2. Under the inverse-limit variant, the record does not say whether a limit that is not a convergent jet counts as "not existing" or as a state outside $V$.
 3. The record does not say whether "exists" should require the limit to lie in the chain's continuation class (#299's second critic question).
+4. (T4)'s exclusion of dense period groups is #305's own argument, not on record.
