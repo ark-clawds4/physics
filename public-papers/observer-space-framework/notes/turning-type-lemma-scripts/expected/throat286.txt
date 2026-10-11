@@ -1,0 +1,25 @@
+c=0.1: inward path reaches the throat for 2<r<2.0014462 and r>705.154978; lands beyond the source radius (r'>r) for r>2786.4692
+c=0.01: inward path reaches the throat for 2<r<2.0000144 and r>69303.706; lands beyond the source radius (r'>r) for r>277152.579
+c* = 1.55720893596 at r = 3.269826325 (for c>=c*, every inward path reaches the throat)
+c = 0.1
+source apastron r0=3000.0, v=0.0015: apo-bound [7.410741, 3000.0], E=0.9996677357, L=4.5000051
+   inward(through throat): r'=3227.216103 apo-bound [9.1941635, 3227.2161] (a): PASS
+   outward: r'=9241.561739 apo-bound [95.027248, 9241.5617] (a): PASS
+   stop convention inward: None
+c = 0.1
+source apastron r0=5000.0, v=0.0009: apo-bound [7.399122, 5000.0], E=0.9998003849, L=4.5000018
+   inward(through throat): r'=8415.183346 apo-bound [26.60834, 8415.1833] (a): PASS
+   outward: r'=18430.81934 apo-bound [136.56619, 18430.819] (a): PASS
+   stop convention inward: None
+c = 0.1
+source apastron r0=1000.0, v=0.0045: apo-bound [7.4692669, 1000.0], E=0.9990096145, L=4.5000456
+   inward(through throat): r'=189.874729 apo-plunge [2.0, 189.87473] (a): FAIL
+   outward: r'=2200.61615 apo-bound [48.015368, 2200.6162] (a): PASS
+   stop convention inward: None
+c = 0.01
+source apastron r0=300000.0, v=0.000015: apo-bound [7.382036, 300000.0], E=0.9999966668, L=4.5
+   inward(through throat): r'=324244.0305 apo-bound [9.2783607, 324244.03] (a): PASS
+   outward: r'=924267.5923 apo-bound [94.071778, 924267.59] (a): PASS
+   stop convention inward: None
+c=0.1: eps>2*Delta ell also for 2<r<2.000361 (only apastra exist there; no bound-orbit turning point)
+c=0.01: eps>2*Delta ell also for 2<r<2.0000036 (only apastra exist there; no bound-orbit turning point)

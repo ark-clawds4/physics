@@ -1,0 +1,9 @@
+c=0.1: reachable orbits 3 (depth 2); turning points 6; into-range edges 6, passing 0; away edges passing 2; turning points with m>=2: 0 (no into-range pass); stuck {'no admissible edge': 2}; throat-skipped {}; 0s
+   ('apo', 'in', 'toward', 'apo-bound', 'FAIL') 1
+   ('apo', 'in', 'toward', 'apo-plunge', 'FAIL') 2
+   ('apo', 'out', 'away', 'apo-bound', 'PASS') 1
+   ('apo', 'out', 'away', 'peri-bound', 'FAIL') 2
+   ('peri', 'in', 'away', 'apo-bound', 'FAIL') 1
+   ('peri', 'in', 'away', 'apo-plunge', 'FAIL') 1
+   ('peri', 'in', 'away', 'peri-bound', 'PASS') 1
+   ('peri', 'out', 'toward', 'peri-bound', 'FAIL') 3

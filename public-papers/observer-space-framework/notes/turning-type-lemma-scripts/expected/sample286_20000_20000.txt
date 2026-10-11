@@ -1,0 +1,43 @@
+('S1', 'orbits in the through-throat-beyond regime (eps(r_a)>2 ell(r_a))') 8244
+('S1', 'orbits with r_a>2786 (c=0.1 threshold scale)') 11661
+('S1', 'orbits') 20000
+('S1', 'rejected (not stable bound)') 13355
+('S1', 'stop', 'away', 'FAIL') 13222
+('S1', 'stop', 'away', 'PASS') 26778
+('S1', 'stop', 'interior landing margin sign ok') 30553
+('S1', 'stop', 'into-range', 'lands interior', 'type kept', 'FAIL') 30553
+('S1', 'stop', 'm=0') 13222
+('S1', 'stop', 'm=1') 26778
+('S1', 'stop', 'undefined (throat, stop)') 9447
+('S1', 'through', 'away', 'FAIL') 13222
+('S1', 'through', 'away', 'PASS') 26778
+('S1', 'through', 'interior landing margin sign ok') 31756
+('S1', 'through', 'into-range via throat', 'lands exterior', 'type kept', 'PASS') 8244
+('S1', 'through', 'into-range via throat', 'lands interior', 'type kept', 'FAIL') 1203
+('S1', 'through', 'into-range', 'lands interior', 'type kept', 'FAIL') 30553
+('S1', 'through', 'm=0') 13222
+('S1', 'through', 'm=1') 18534
+('S1', 'through', 'm=2') 8244
+('S1', 'turning points') 40000
+('S2', 'stop', 'away', 'FAIL') 201
+('S2', 'stop', 'away', 'PASS') 17973
+('S2', 'stop', 'interior landing margin sign ok') 19180
+('S2', 'stop', 'into-range', 'lands interior', 'type kept', 'FAIL') 19180
+('S2', 'stop', 'm=0') 2027
+('S2', 'stop', 'm=1') 17973
+('S2', 'stop', 'undefined (throat, stop)') 2646
+('S2', 'through', 'away via throat', 'FAIL') 1114
+('S2', 'through', 'away via throat', 'PASS') 712
+('S2', 'through', 'away', 'FAIL') 201
+('S2', 'through', 'away', 'PASS') 17973
+('S2', 'through', 'interior landing margin sign ok') 19648
+('S2', 'through', 'into-range via throat', 'lands exterior', 'type changed:peri-bound', 'FAIL') 1
+('S2', 'through', 'into-range via throat', 'lands exterior', 'type changed:peri-unbound', 'FAIL') 2
+('S2', 'through', 'into-range via throat', 'lands exterior', 'type kept', 'FAIL') 3
+('S2', 'through', 'into-range via throat', 'lands exterior', 'type kept', 'PASS') 346
+('S2', 'through', 'into-range via throat', 'lands interior', 'type kept', 'FAIL') 468
+('S2', 'through', 'into-range', 'lands interior', 'type kept', 'FAIL') 19180
+('S2', 'through', 'm=0') 1314
+('S2', 'through', 'm=1') 18341
+('S2', 'through', 'm=2') 345
+('S2', 'turning points') 20000
