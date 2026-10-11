@@ -1,0 +1,9 @@
+c=0.1: orbits 3 (BFS depth 2); into-range edges 6, passing 0, type kept 6; stuck {'no admissible edge': 2}; max apastron 23.2368; throat {}; {}; 0s
+   ('apo', 'in', 'toward', 'apo-bound', 'FAIL') 1
+   ('apo', 'in', 'toward', 'apo-plunge', 'FAIL') 2
+   ('apo', 'out', 'away', 'apo-bound', 'PASS') 1
+   ('apo', 'out', 'away', 'peri-bound', 'FAIL') 2
+   ('peri', 'in', 'away', 'apo-bound', 'FAIL') 1
+   ('peri', 'in', 'away', 'apo-plunge', 'FAIL') 1
+   ('peri', 'in', 'away', 'peri-bound', 'PASS') 1
+   ('peri', 'out', 'toward', 'peri-bound', 'FAIL') 3

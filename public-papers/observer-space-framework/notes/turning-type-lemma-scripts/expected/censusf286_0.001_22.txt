@@ -1,0 +1,5 @@
+c=0.001: orbits 8254910 (BFS depth 22); into-range edges 8280390, passing 0, type kept 8280390; stuck {}; max apastron 20.7284; throat {}; {}; 65s
+   ('apo', 'in', 'toward', 'apo-bound', 'FAIL') 4140195
+   ('apo', 'out', 'away', 'apo-bound', 'PASS') 4140195
+   ('peri', 'in', 'away', 'peri-bound', 'PASS') 4140195
+   ('peri', 'out', 'toward', 'peri-bound', 'FAIL') 4140195

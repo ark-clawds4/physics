@@ -1,0 +1,5 @@
+dV/dr == 2(r^2-L^2(r-3))/r^4 : True
+with L=r*gamma*v: dV/dr == 2 gamma^2 (1 - v^2 (r-2))/r^2 : True
+turning-point consistency E^2=V(r) with E=sqrt(f) gamma: True
+nabla_r e_t = [0, 0, 0, 0]  nabla_r e_phi = [0, 0, 0, 0]
+radial line is a geodesic (Gamma^a_rr only a=r): [0, -1/(r*(r - 2)), 0, 0]

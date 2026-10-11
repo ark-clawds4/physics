@@ -1,0 +1,12 @@
+c=0.01 exact jump-count law (EPP1, (a)):
+  P(J=12) = 26/531441 ~ 4.89236e-05
+  P(J=13) = 9338/59049 ~ 0.15814
+  P(J=14) = 447373/531441 ~ 0.841811
+  sum = 1 ; E[J] = 13.841762 ; E[decisions] = 27.683525 ; terminal kinds ('stuck',)
+census: {'orbits': 29119, 'edges at both turning points': 14477, 'stuck: no admissible edge': 14478, 'stuck: no admissible bound edge': 14478}
+  distinct orbits at round(.,6): 29119
+  distinct orbits at round(.,7): 29119
+  distinct orbits at round(.,8): 29119
+  distinct orbits at round(.,10): 29119
+  distinct orbits at round(.,11): 29119
+  distinct orbits at round(.,12): 29119
