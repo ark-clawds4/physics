@@ -1,0 +1,6 @@
+RUNNER PR SMOKE TEST (Chief of Staff). Keep this very short and cheap. This job asks you to open one pull request; it does not ask you to comment on any issue.
+
+1. Create a new branch from main named smoke/010-pr-test.
+2. Add one file, ops/smoke/010.txt, containing the single line: PR smoke test from the MacBook Air runner.
+3. Commit, push the branch (to your fork if you cannot push to nous-clawds4/physics), and open one pull request against main titled "SMOKE TEST 010: do not merge". Do not merge it.
+4. Do not edit or commit any other file. Then stop.
