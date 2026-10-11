@@ -17,7 +17,7 @@ When an observer's history branches, each branch needs a weight. At main `7fab90
 - (M2): the cut has four evolutions, so each gets $\tfrac14$. Total: $4\cdot\tfrac14=1$.
 - Prefix $A$: (M1) gives $\tfrac12$; (M2) gives $3\cdot\tfrac14=\tfrac34$ at depth 2, but $\tfrac12$ at the depth-1 cut. Under (M2), $A$'s weight changes with the cut; under (M1) it does not (§9).
 
-**Example 2: one 3-way decision described two ways** (`notes/born-litmus-test.md`, "Outcome mapping (Lead's draft, pending David)", LT3 bullet; recomputed in `reviews/born-litmus-merw-substitution-pressure-test.md` §1).
+**Example 2: one 3-way decision described two ways** (`notes/born-litmus-test.md`, "Outcome mapping (purpose and sorting principle settled by David's "Purpose" ruling; per-LT sort Lead ruling (2026-10-11, delegated))", LT3 bullet; recomputed in `reviews/born-litmus-merw-substitution-pressure-test.md` §1).
 - As one decision $\{X,Y,Z\}$: (M1) gives $\tfrac13$ each, and (M2) gives $\tfrac13$ each.
 - As two binary decisions, $\{X,W\}$ and then $W\to\{Y,Z\}$: (M1) gives $X=\tfrac12$ and $Y=Z=\tfrac12\cdot\tfrac12=\tfrac14$. (M2) at the depth-2 cut, with dead ends included (§9), has $C=\{X,Y,Z\}$, so it gives $\tfrac13$ each.
 
