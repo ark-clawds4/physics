@@ -77,6 +77,6 @@ Scripts are in [`completed-vs-evolutions-scripts/`](completed-vs-evolutions-scri
 
 ## Critic questions
 
-1. Is D1's right-continuous trace a faithful reading of Paper 1's "curve parametrised by proper time"? Or does a jump that carries no $\tau$ already break §4, so that neither definition is Paper 1's?
+1. Is D1's right-continuous trace a faithful reading of Paper 1's "curve parametrised by proper time"? Or does a jump that carries no $\tau$ already break Paper 1 §4, so that neither definition is Paper 1's?
 2. Case 2 follows §5's oriented split, which makes a recurrent self-loop a type-(i) pair. Is that intended for self-loops, or is it a type-(ii) edge whose only effect is to change the arrival flag?
 3. Where $z>0$, countability depends on the Zeno reading through (Z-vii). Should C33's "countable" be stated before excision or after it?
