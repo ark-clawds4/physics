@@ -15,7 +15,7 @@ Under it, C8 has no limit and the germless toys have nothing to ask about. C5's 
 | Chart $(r,u^r,v)$ on Schwarzschild $M=1$ germs | #290 A6 ("the germ is determined by $(r,u^r,v)$ up to isometry") | a parametrisation of one family, not a topology on $V$. Inside $r>2$ every Fermi coefficient is analytic in it, so the two agree there; they differ as $r\to\infty$ |
 | Closed- or open-graph $R$, compact stars | the three notes above | conditions on $R$ in the Fermi-slice topology, named extras; they give no limit notion of their own |
 
-A compatible metric is also on record (`papers/fermi-distance.md`: a candidate Fermi-slice distance, "extra packaging of Theorem 16", not adopted); it gives the same limits. Anything else (a metric generating another topology, a topology through which a limit may leave the slice) would be new.
+A candidate metric is also on record (`papers/fermi-distance.md`: a quotient distance built on the inverse-limit variant, "extra packaging of Theorem 16", not adopted). The record calls it "a candidate" and does not prove that it generates the Fermi-slice topology (a standard fact if the slice metric is $O(3)$-invariant). That is owed, not proved; if it holds, the metric gives the same limits. Anything else (a metric generating another topology, a topology through which a limit may leave the slice) would be new.
 
 ## 2. Does the limit exist? The record's Zeno examples
 
