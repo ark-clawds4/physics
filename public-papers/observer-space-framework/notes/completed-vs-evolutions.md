@@ -29,7 +29,7 @@ Three cases:
 
 The jump convention is immaterial: curvelets agreeing on $(0,\delta)$ agree at $0$ (Theorem 2 of `papers/analytic-split.md`).
 
-**Kretschmann rule.** A target is the source germ iff $r'=r_0$. A direct path never gives this. Under "continue through", a through-throat path gives it only at apastra with $\varepsilon=2\Delta\ell$ (#290 (T3); at $c=0.1$, $r_0=2786.4692$ and a near-throat apastron at $r_0\approx2.000361$). A decision there is reached along a segment, so it sits on a bound orbit (a plunging orbit's apastron is reached only by the jump that lands on it). The germ is therefore recurrent, and case 2 applies. **So D1 and D2 coincide on the Kretschmann rule**, with or without (a), under either throat convention.
+**Kretschmann rule.** A target is the source germ iff $r'=r_0$. A direct path never gives this. Under "continue through", a through-throat path gives it only at turning points with $\varepsilon=2\Delta\ell$ (#290 (T3); at $c=0.1$, $r_0=2786.4692$ and a near-throat apastron at $r_0\approx2.000361$). Under (A) (the arrival semantics of v0.9.1 §8.2) a decision there is reached along a segment, so it sits on a bound orbit (a plunging orbit's apastron or an unbound orbit's periastron is reached only by the jump that lands on it). The germ is therefore recurrent, and case 2 applies. **So D1 and D2 coincide on the Kretschmann rule**, with or without (a), under either throat convention.
 
 ## 3. What each makes true or false
 
