@@ -1,0 +1,23 @@
+N1  v0.10-prose.md                 count=1  So $m\le1$ at every vertex outside that exception:
+N1  v0.10-prose.md                 count=1  | $\ell$ | proper radial distance on the time-symmetric slic
+N1  v0.10-prose.md                 count=1  | $m$, $m_v$ | the number of outgoing edges at a decision | 
+N1  v0.10-prose.md                 count=1  | $J(T)$ | the sum of $m_v/(1+m_v)$ over the decisions in $[
+N2  v0.10-prose.md                 count=1  **#230 F11, ruled.**
+N3  v0.10-prose.md                 count=1  no topology on $V$ is chosen: #301's options (T0)–(T4) (`not
+N4  v0.10-prose.md                 count=1  - **P3** (#292, `notes/completed-vs-evolutions.md`):
+N4  v0.10-changelog.md             count=1  - #292 `notes/completed-vs-evolutions.md`;
+N6  v0.10-prose.md                 count=1  **So D1 and D2 coincide on the Kretschmann rule**, with or w
+G   v0.10-prose.md                 count=1  the radial line is a geodesic and the static frame is parall
+G   v0.10-prose.md                 count=1  - `v0.9-prose.md`: working (the current draft).
+G   v0.10-prose.md                 count=1  - `public-papers/observer-space-framework/reviews/v0.7-outli
+G   v0.10-prose.md                 count=1  At a type-(ii) jump a history **leaves its curvelet in orien
+G   v0.10-prose.md                 count=1  Type (ii) leaves the oriented curvelet, and need not change 
+G   v0.10-prose.md                 count=1  $\tau=0$ is the identity and is not a pair.
+G   v0.10-prose.md                 count=1  8. *The Zeno-mass convention* (Open; §8.3; C35). Three readi
+G   v0.10-prose.md                 count=1  (ii) With $L=r\gamma v$, $V'(r)=2\gamma^2\big(1-v^2(r-2)\big
+G   v0.10-prose.md                 count=1  or is undefined (under the named alternative "stop" when the
+G   v0.10-prose.md                 count=1  and, through the throat, when $\varepsilon<2\Delta\ell(r_0)$
+G   v0.10-prose.md                 count=1  gives it only at turning points with $\varepsilon=2\Delta\el
+G   v0.10-changelog.md             count=1  The header (not in the audited body) adds the labels #270, #
+G   v0.10-prose.md                 count=1  type-(ii) jumps, which leave the curvelet and carry no prope
+strings: 22 all once, sequential apply ok: True
