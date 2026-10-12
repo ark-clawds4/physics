@@ -14,7 +14,7 @@ $U\subseteq V$ is open iff $\gamma^{-1}(U)$ is open in $I_\gamma$ for every curv
 
 What is missing is statements, not structure.
 
-**Prior work.** The construction is standard: the finest topology making a family of curves continuous is the D-topology of diffeology for one-dimensional plots (Iglesias-Zemmour 2013, art. 2.8; Christensen, Sinnamon and Wu 2014, Thm 3.7) and, for all smooth curves, the $c^\infty$-topology (Kriegl and Michor 1997, 2.12). On spacetime its analogues are Zeeman's (1967), Göbel's (1976) and the Hawking–King–McCarthy path topology (1976; see Low 2016), where the curves cross and fill open sets. On $V$ the curvelets do not cross, so the result is the leaf topology of a one-dimensional flow, whose orbits are the jet-level counterpart of the inertial-observer orbits of Gielen and Wise (2013, §3.1). What this note adds is carrying the construction out on $V$ via Thm 3, and the consequence for Zeno histories.
+**Prior work.** The construction is standard: the finest topology making a family of curves continuous is the D-topology of diffeology for one-dimensional plots (Iglesias-Zemmour 2013, art. 2.8; Christensen, Sinnamon and Wu 2014, Thm 3.7) and, for all smooth curves, the $c^\infty$-topology (Kriegl and Michor 1997, 2.12). On spacetime its analogues are Zeeman's (1967), Göbel's (1976) and the Hawking–King–McCarthy path topology (1976; see Low 2016), where the curves cross and fill open sets. On $V$ the curvelets do not cross, so the result is a formal analogue of the leaf topology of a one-dimensional flow. The nearest flow on record is the inertial-observer (Reeb) flow on Gielen and Wise's observer space (2013, §3.1), a different construction: its points are 4-velocities, not analytic germs, and $V$ is not their 7-manifold (§4, §12; §2: "It is not Stoica, not Gielen–Wise and not Larsson", FW4 in `versions/v0.10-changelog.md` §2c). What this note adds is carrying the construction out on $V$ via Thm 3, and the consequence for Zeno histories.
 
 ## 2. The partition hypothesis
 
@@ -99,14 +99,14 @@ Zeno behaviour of this kind (infinitely many jumps at one $\tau$) is the "static
 
 ## References (prior work)
 
-Compiled by Literature (`refs.md`, 2026-10-11; not in this repository) at David's request of 2026-10-11, 5:57 PM ET (relayed, not signed). Marks are Literature's: **[V-text]** the text itself was read; **[V-meta]** the DOI or arXiv metadata was checked, but the content comes from the abstract or a secondary source; **[U]** unverified.
+Compiled by Literature (`refs.md`, 2026-10-11; not in this repository) at David's request of 2026-10-11, 5:57 PM ET (relayed, not signed). Marks are Literature's: **[V-text]** the text itself was read; **[V-meta]** the DOI or arXiv metadata was checked, but the content comes from the abstract or a secondary source; **[U]** unverified. Further reading, not cited in the text: entry 1 (Zeeman 1964), entry 5's comment (Agrawal and Sinha 2026), entry 11 (Dugger), entry 12 (Fajstrup and Rosický) and entry 14 (Hohmann).
 
 1. [V-meta] Zeeman, E. C., "Causality implies the Lorentz group", *J. Math. Phys.* 5(4), 490–493 (1964), doi:10.1063/1.1704140.
 2. [V-meta] Zeeman, E. C., "The topology of Minkowski space", *Topology* 6(2), 161–170 (1967), doi:10.1016/0040-9383(67)90033-X.
 3. [V-meta] Göbel, R., "Zeeman topologies on space-times of general relativity theory", *Commun. Math. Phys.* 46(3), 289–307 (1976), doi:10.1007/BF01609125.
 4. [V-meta] Hawking, S. W., King, A. R., McCarthy, P. J., "A new topology for curved space–time which incorporates the causal, differential, and conformal structures", *J. Math. Phys.* 17(2), 174–181 (1976), doi:10.1063/1.522874.
 5. [V-text] Low, R. J., "Spaces of paths and the path topology", *J. Math. Phys.* 57(9), 092503 (2016), doi:10.1063/1.4963144. Comment [V-meta]: Agrawal, G., Sinha, S., *J. Math. Phys.* 67(1), 014101 (2026), doi:10.1063/5.0275357.
-6. [V-text] Papadopoulos, K., Papadopoulos, B. K., "Space-time singularities vs. topologies in the Zeeman–Göbel class", *Gravit. Cosmol.* 25(2), 116–121 (2019), doi:10.1134/S0202289319020117, arXiv:1712.03270.
+6. [V-meta] Papadopoulos, K., Papadopoulos, B. K., "Space-time singularities vs. topologies in the Zeeman–Göbel class", *Gravit. Cosmol.* 25(2), 116–121 (2019), doi:10.1134/S0202289319020117, arXiv:1712.03270.
 7. [V-meta] Minguzzi, E., "Limit curve theorems in Lorentzian geometry", *J. Math. Phys.* 49(9), 092501 (2008), doi:10.1063/1.2973048, arXiv:0712.3942.
 8. [V-text] Iglesias-Zemmour, P., *Diffeology*, Math. Surveys Monogr. 185, AMS (2013), doi:10.1090/surv/185, art. 2.8 (D-topology). The article number and the irrational-torus exercise (no. 55) were checked in the author's posted revised edition, not the AMS print; the print numbering is [U].
 9. [V-text] Christensen, J. D., Sinnamon, G., Wu, E., "The D-topology for diffeological spaces", *Pacific J. Math.* 272(1), 87–110 (2014), doi:10.2140/pjm.2014.272.87, arXiv:1302.2935, Thm 3.7.
@@ -114,7 +114,7 @@ Compiled by Literature (`refs.md`, 2026-10-11; not in this repository) at David'
 11. [V-text] Dugger, D., "Notes on Delta-generated spaces", unpublished notes (2003), https://pages.uoregon.edu/ddugger/delta.pdf, Def. 1.2.
 12. [V-meta] Fajstrup, L., Rosický, J., "A convenient category for directed homotopy", *Theory Appl. Categ.* 21, 7–20 (2008). Metadata only; not opened.
 13. [V-text] Gielen, S., Wise, D. K., "Lifting general relativity to observer space", *J. Math. Phys.* 54, 052501 (2013), arXiv:1210.0019, doi:10.1063/1.4802878 (v0.9.1's References entry), §3.1 (Reeb flow on observer space).
-14. [V-meta] Hohmann, M., *Phys. Rev. D* 87, 124034 (2013), doi:10.1103/PhysRevD.87.124034, arXiv:1304.5430.
+14. [V-meta] Hohmann, M., "Extensions of Lorentzian spacetime geometry: From Finsler to Cartan and vice versa", *Phys. Rev. D* 87, 124034 (2013), doi:10.1103/PhysRevD.87.124034, arXiv:1304.5430.
 15. [V-meta] Bourbaki, N., *General Topology, Chapters 5–10*, Springer (1989), doi:10.1007/978-3-642-61703-4. Cited without a section; the location is [U].
 16. [V-text] Simić, S. N., Johansson, K. H., Lygeros, J., Sastry, S., "Towards a geometric theory of hybrid systems", *Dyn. Contin. Discrete Impuls. Syst. Ser. B* 12(5–6), 649–687 (2005), Defs. 2.10 and 3.1. No DOI was found.
 17. [V-meta] Ames, A. D., Zheng, H., Gregg, R. D., Sastry, S., "Is there life after Zeno? Taking executions past the breaking (Zeno) point", *Proc. 2006 American Control Conference*, doi:10.1109/ACC.2006.1656623. Abstract only.
