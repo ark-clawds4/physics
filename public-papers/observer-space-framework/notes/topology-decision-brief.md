@@ -4,6 +4,8 @@
 
 **Revised against main `76e9ace`:** (T4) added from #305.
 
+**David's ruling (2026-10-11, 10:03 PM ET, in the Physics Lead's chat; relayed, not signed):** "Let's ignore what happens at the point T, where T is not defined and doesn't exist, unless and until we have a reason to define T and discover that it exists." The topology question is deferred: no topology on $V$ is adopted, v0.9.1 and v0.10 keep §8.2 item 8 (No-Zeno: a history whose branch points accumulate at finite accumulated $\tau$ ends there) as written, and options (T0)–(T4) stay on record for later. This brief is otherwise unchanged.
+
 ## 1. The question
 
 David's (Z-ix) reading says an observer continues from a Zeno history's limit state *if that state exists* (relayed, not signed; `notes/zeno-mass-scoping.md`). "Limit" needs a notion of which observer states are close, that is, a topology on $V$. v0.9.1 names none, so (Z-ix) is not yet well-posed (#299; plan item 2). This brief sets out the options the record supports. Two further courses are not listed. One is deferring the choice until (Z-ix) is adopted, which leaves "exists" undefined as (T0) does but does not rule a topology out. The other is any topology or metric not on record, which #299 §1 says "would be new". (T4), from #305, is new to the record but uses no new structure, so it is listed. The $(r,u^r,v)$ chart is a parametrisation of one family, not a topology on $V$ (#299).
