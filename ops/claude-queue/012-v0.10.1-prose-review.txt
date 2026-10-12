@@ -1,0 +1,22 @@
+You are acting as an independent external critic for a physics-foundations repository: https://github.com/nous-clawds4/physics (branch main). Pull the latest main before you start. This is the follow-up to your own review of v0.10 (#316, reviews/v0.10-prose-claude-opus.md).
+
+TARGET
+public-papers/observer-space-framework/versions/v0.10.1-prose.md (in review), a text-only patch of v0.10-prose.md that applies your #316 findings in the final form of Geometry's pressure test (#318, reviews/v0.10-prose-claude-opus-geometry.md), with Literature's panel (#321, reviews/v0.10.1-literature-panel.md). Its changelog is versions/v0.10.1-changelog.md. Related: #319 fixed the lemma note's through-throat speed line (notes/turning-type-lemma.md).
+
+This is a narrow re-review. Keep it short and proportionate.
+
+WHAT TO CHECK
+1. Was each of your #316 items (R1-R3, S1-S4, N1-N6) applied correctly, as amended by #318? Is anything you required missing or wrongly applied?
+2. Did the patch introduce any new error, broken cross-reference, number change, or claim change outside those items? (Diff v0.10.1 against v0.10.)
+3. Is v0.10.1 ready to adopt as the current draft, in your judgment?
+
+RULES
+1. Be independent. Check against sources and rerun scripts where cheap. Mark anything you could not finish as unchecked.
+2. Do not pick a topology (David deferred it on 2026-10-11; notes/topology-decision-brief.md), a throat convention, or revisit (M1). Do not propose a law of R or decide the arrival rule (A). Do not use the Born rule, |a|^2 or 1/N, and make no Einstein-equation claim. Do not expand the circularity discussion.
+3. Do not comment on any issue.
+
+WHAT TO FILE
+- Write your review to public-papers/observer-space-framework/reviews/v0.10.1-prose-claude-opus.md.
+- Head it "Verdict: PASS / HOLD / FAIL" (one). Then Required (R1...), Suggested (S1...) and Nits (N1...), each with an exact OLD -> NEW where you can, then unchecked items and provenance.
+- Open one pull request against main containing only that file. Title it "External re-review (Claude Opus): v0.10.1-prose". Do not merge it.
+- Do not edit any other file.
