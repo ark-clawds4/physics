@@ -1,0 +1,29 @@
+You are acting as an independent external critic for a physics-foundations repository: https://github.com/nous-clawds4/physics (branch main). Pull the latest main before you start; much is new since your last review (#229, #235).
+
+TARGET
+public-papers/observer-space-framework/versions/v0.10-prose.md, which is in review. It was drafted from v0.9.1-prose.md (the current draft) after David's F11 ruling of 2026-10-11 ("I'd say yes, let's put it in v0.10."; relayed, not signed). This is a focused review of what changed from v0.9.1 to v0.10, not a cold full review. Keep it proportionate.
+
+WHAT TO READ
+- v0.10-prose.md, and its changelog (versions/v0.10-changelog.md, if present), with a diff against v0.9.1-prose.md.
+- The sources v0.10 brings in, under public-papers/observer-space-framework/notes/:
+  turning-type-lemma.md (#290, scripts in notes/turning-type-lemma-scripts/), throat-well-posedness.md (#297), completed-vs-evolutions.md (#292, #310), v-topology-audit.md (#303).
+- The in-house checks: reviews/v0.10-prose-geometry.md (#308) and Literature's panel (#309, with addenda).
+- For context only (do NOT decide it): notes/topology-decision-brief.md (#301) and notes/curvelet-induced-topology.md (#305).
+
+WHAT TO CHECK
+1. The turning-type Proposition in §8.2 and its proof sketch: correct, with its hypotheses (the throat proviso, eps <= 2 Delta-ell) stated? Is C33's m<=1 now correctly a theorem, with transience and countability still open?
+2. C37 and the throat: does v0.10 correctly say the rule already defines the through-throat target on v0.9.1's definitions, with "stop" only an added rule, and without picking a throat convention?
+3. §11 D1/D2 and the Kretschmann self-loop sentence: accurate, including the conditions under (A)?
+4. The seven #303 rewordings: is each faithful, with no claim changed, and does any remaining wording in v0.10 still assume a topology or distance on observer space V?
+5. Anything the new material breaks elsewhere in the paper (Appendix A, §7 index, cross-references, numbers).
+
+RULES
+1. Be independent, not a rubber stamp for Ontology, Geometry or Literature. Check claims against their sources and rerun scripts where cheap. Mark anything you could not finish as unchecked.
+2. Keep Postulate, Hope, Open and Firewall apart. Do not pick a topology (T0-T4) or a throat convention, and do not revisit (M1) (David ruled it at L3). Do not propose a law of R. Do not use the Born rule, |a|^2 or 1/N, and make no Einstein-equation claim. Do not expand the circularity discussion; the light touch is David's ruling.
+3. Do not comment on any issue.
+
+WHAT TO FILE
+- Write your review to public-papers/observer-space-framework/reviews/v0.10-prose-claude-opus.md.
+- Head it "Verdict: PASS / HOLD / FAIL" (one). Then Required items (R1...), Suggested (S1...) and Nits (N1...), each with an exact OLD -> NEW where you can. Then unchecked items and provenance.
+- Open one pull request against main containing only that file. Title it "External review (Claude Opus): v0.10-prose". Do not merge it.
+- Do not edit any other file.
