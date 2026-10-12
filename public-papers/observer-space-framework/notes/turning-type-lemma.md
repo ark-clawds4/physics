@@ -60,7 +60,7 @@ Schwarzschild $M=1$. We use $f=1-2/r$, $V(r)=f\,(1+L^2/r^2)$ and $\dot r^2=E^2-V
 
 ## 3. Proof sketch (details in Appendix A)
 
-**(T1).** $\nabla K$ is radial and orthogonal to $u$ when $u^r=0$. The radial line is a geodesic, and the static frame $f^{-1/2}\partial_t,\ r^{-1}\partial_\varphi$ is parallel along it (sympy). So $(\gamma,v)$ and $u'^r=0$ are kept. Through the throat, the same holds by the convention.
+**(T1).** $\nabla K$ is radial and orthogonal to $u$ when $u^r=0$. The radial line is a geodesic, and the static frame $f^{-1/2}\partial_t,\ r^{-1}\partial_\varphi$ is parallel along it (sympy). So $(\gamma,v)$ and $u'^r=0$ are kept. Through the throat, the same holds by parallel transport along the rule's own path, not by the convention (#318 R1; #297 §2 item 3).
 
 **(T2), periastron.**
 
